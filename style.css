@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue; /* Light blue background for the whole page */
+  text-align: center;          /* Center all text horizontally */
+  font-family: 'Segoe UI', Arial, sans-serif; /* Use a modern, readable font */
+}
+
+.profile-card {
+  background: #fff;                /* White background for the card */
+  border: 2px solid #d3d3d3;       /* Light gray border around the card */
+  border-radius: 12px;             /* Rounded corners for a softer look */
+  padding: 2em 2.5em;              /* Space inside the card (top/bottom, left/right) */
+  max-width: 450px;                /* Limit the card's width */
+  margin: 3em auto;                /* Center the card horizontally and add space on top/bottom */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* Subtle shadow for depth */
+}
+
+h1 {
+  font-size: 3em;      /* Large font size for the main heading */
+  color: #003366;      /* Dark blue color for the heading */
+  margin-top: 0.2em;   /* Small space above the heading */
+}
+
+h2 {
+  font-size: 2em;         /* Slightly smaller than h1 */
+  color: slategray;       /* Light gray-blue color for the subheading */
+  margin-bottom: 0.5em;   /* Space below the subheading */
+}
+
+p {
+  font-size: 1.25em;    /* Slightly larger text for readability */
+  line-height: 1.6;     /* More space between lines for easier reading */
+  margin-bottom: 0;     /* Remove extra space below the paragraph */
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;       /* Remove default padding */
+  margin-top: 1em;  /* Add space above the list */
+}
+
+ul li {
+  margin-bottom: 0.7em; /* Add spacing between the links */
+}
